@@ -1,0 +1,3 @@
+﻿input_size,output_video,device,frames_processed,source_fps,video_width,video_height,detection_events,ocr_text_events,processing_time_seconds,average_processing_fps,ground_truth_evaluation
+640,output/video_640.mp4,NVIDIA GeForce GTX 1650 SUPER,1800,30.0,1440,960,10809,3112,357.74,5.03,Not yet performed
+960,output/video_960_fixed.mp4,NVIDIA GeForce GTX 1650 SUPER,1800,30.0,1440,960,11178,3181,367.69,4.9,Not yet performed

@@ -17,10 +17,10 @@ OUTPUT_DIR = BASE_DIR / "output"
 
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-OUTPUT_PATH = OUTPUT_DIR / "video_960_fixed.mp4"
+OUTPUT_PATH = OUTPUT_DIR / "video_640.mp4"
 
 # Detection settings
-IMAGE_SIZE = 960       # Later compare 640 vs 960
+IMAGE_SIZE = 640  # 640-resolution experiment       # Later compare 640 vs 960
 CONFIDENCE = 0.25
 PLATE_CLASS_ID = 1     # Model class: license-plate
 
