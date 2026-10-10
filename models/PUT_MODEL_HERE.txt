@@ -1,0 +1,2 @@
+Place a YOLO checkpoint trained to detect license plates here and name it number-plate.pt.
+Official yolo26n.pt weights are general-purpose, not plate-specific.

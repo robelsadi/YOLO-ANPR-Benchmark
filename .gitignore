@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated experiment logs
+*.log
+experiment_log*.txt
+
+# YOLO-generated runs and outputs
+runs/
+output/*
+!output/.gitkeep
+
+# Input videos and datasets
+input/*
+!input/.gitkeep
+
+# Model weights
+models/*.pt
+*.pth
+
+# Local secrets and configuration
+.env
+.env.*
+
+# Editor settings
+.vscode/
+.idea/
